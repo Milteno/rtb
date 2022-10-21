@@ -5,6 +5,11 @@ export const classNames = {
   },
   nav: {
     active: 'active',
+  },
+  tasks: {
+    task1: 'task1',
+    task2: 'task2',
+    task3: 'task3',
   }
 };
 export const select = {
@@ -22,6 +27,12 @@ export const select = {
     ad2template: '#template-ad2-page',
     ad3template: '#template-ad3-page',
   },
+};
+export const settings = {
+  db: {
+    url: '//' + window.location.hostname + (window.location.hostname=='localhost' ? ':3131' : ''),
+    products: 'offers',
+  }
 };
 export const templates = {
   Ad1: Handlebars.compile(document.querySelector(select.templateOf.ad1template).innerHTML),

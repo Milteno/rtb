@@ -18,6 +18,7 @@ class Ad2 {
     thisAbout.dom.wrapper.innerHTML = generatedHTML;
 
   }
+
 }
 
 export default Ad2;

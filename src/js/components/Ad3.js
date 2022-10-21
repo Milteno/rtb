@@ -1,5 +1,6 @@
 import {templates} from '../settings.js';
 
+
 class Ad3 {
   constructor(element) {
     const thisAbout = this;
